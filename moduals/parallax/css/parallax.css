@@ -1,0 +1,241 @@
+ 
+	#parallax_one {
+	height: 600px;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	.parallax_one-bg {
+		position: absolute;
+		height: 600px;
+		width: 100%;
+		background: url('../images/1.jpg') 0 0 repeat fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover; 
+		
+	}
+	
+	
+	
+	.parallax_two-bg {
+		position: absolute;
+		height: 450px;
+		width: 100%;
+		background-color:gray;
+		background: url('../images/4.jpg') 0 0 repeat fixed;  
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover; 
+		position: relative;
+	}
+	
+ 
+	
+
+
+.parallax_one  {
+	width: 100% ;
+	min-height: 261px;
+	overflow: hidden;
+	position: relative;  
+}
+.parallax_two  {
+	width: 100% ;
+	min-height: 261px;
+	overflow: hidden;
+	position: relative;  
+}	 
+	 
+	 
+	  
+ .parallax_one h2 {
+    font-size: 38px; 
+    color: #f8f8f8;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    top: 16px;
+    position: relative;
+    font-weight: bold;
+}
+	
+ .parallax_two h2{
+    font-size: 38px; 
+    color: #f8f8f8;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    top: 16px;
+    position: relative;
+    font-weight: bold;
+}
+  
+	
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+	
+	.portfolio {
+		width: 100%;
+	}
+
+	.portfolio li { 
+		width:25%;
+		margin:0 auto;	
+	}
+	
+	
+	.parallax_one-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_two-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_three-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	 
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 959px) {
+	 
+	
+	.parallax_one-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_two-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_three-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+ 
+	    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+	 
+	}
+	
+	.parallax_one-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_two-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_three-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+  	
+@media only screen and (max-width: 479px) {
+	
+	 
+	
+	.parallax_one-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_two-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+	.parallax_three-bg {
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+	}
+	
+ 
+
+}
+ 
+
+
+		

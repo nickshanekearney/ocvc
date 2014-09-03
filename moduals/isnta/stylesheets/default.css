@@ -1,0 +1,53 @@
+ 
+
+#photos-wrap { 
+  width: 94%; 
+   
+	margin-right:3%;
+  position: relative;
+  z-index: 1;
+}
+
+.photo .avatar {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  position: absolute;
+  bottom: 11px;
+  right: 8px;
+  background: white;
+}
+
+.photo  {
+  margin-bottom: 5px;
+  float: left;
+  position: relative;
+  width: 171px;
+  height: 171px; 
+  margin-right: 2.5px; 
+  border: 1px solid #E0E0E0;
+}
+
+.photo .heart {
+  height: 16px;
+  position: absolute;
+  left: 13px;
+  bottom: 16px;
+  padding: 0 5px 0 22px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  background: white url('../images/fav.png') no-repeat 2px 0;
+}
+
+.paginate {
+  display: block;
+  clear: both;
+  margin: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 100px;
+}

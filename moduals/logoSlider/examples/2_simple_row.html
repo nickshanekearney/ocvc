@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AlchemyTheme's Logo Carousel - Simple Row Demo</title>
+
+<!-- Demo Includes --> 
+<!-- End of Demo Includes -->
+
+<!-- Required Files -->
+<script src="../source/req/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="../source/req/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="../source/req/jquery.debouncedresize.js" type="text/javascript"></script>
+<!-- End of Required Files -->
+
+<!-- Logo Carousel Files -->
+<link href="../source/at.logocarousel.css" type="text/css" rel="stylesheet" media="all" />
+<script src="../source/jquery.at.logocarousel.js" type="text/javascript"></script>
+<!-- End of Logo carousel Files -->
+
+<script>
+	jQuery(document).ready(function() {
+		
+		// It's important that you wait for all images to be loaded
+		// before running the carousel, because the script needs
+		// too calculate the size of the images.
+		jQuery('body').waitForImages(function() {
+			
+			// Use default configuration
+			jQuery('#demo_2').logoCarousel({
+				rows: 1,
+				horizontalDir: 'right',
+				speed: 100,
+				hoverStop: true
+				
+			});
+			
+		});	
+			
+	});
+</script>
+
+</head>
+
+<body>
+ 
+    <!-- CAROUSEL demo_2 -->
+    <div class="at_logo_carousel" id="demo_2">
+        <ul>
+        	<!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo1.png" alt="AlchemyThemes" width="100px" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+            <!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo2.png" alt="AlchemyThemes"  width="100px" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+            <!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo3.png" alt="AlchemyThemes"  width="100px" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+        </ul>
+    </div>
+ 
+</div>
+
+
+</body>
+</html>

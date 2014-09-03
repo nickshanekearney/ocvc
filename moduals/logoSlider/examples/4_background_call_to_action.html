@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AlchemyTheme's Logo Carousel - Simple Row Demo</title>
+
+<!-- Demo Includes -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="assets/css/demo.css" type="text/css" rel="stylesheet" media="all" />
+<!-- End of Demo Includes -->
+
+<!-- Required Files -->
+<script src="../source/req/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="../source/req/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="../source/req/jquery.debouncedresize.js" type="text/javascript"></script>
+<!-- End of Required Files -->
+
+<!-- Logo Carousel Files -->
+<link href="../source/at.logocarousel.css" type="text/css" rel="stylesheet" media="all" />
+<script src="../source/jquery.at.logocarousel.js" type="text/javascript"></script>
+<!-- End of Logo carousel Files -->
+
+<script>
+	jQuery(document).ready(function() {
+		
+		// It's important that you wait for all images to be loaded
+		// before running the carousel, because the script needs
+		// too calculate the size of the images.
+		jQuery('body').waitForImages(function() {
+			
+			// Use default configuration
+			jQuery('#demo_4').logoCarousel({
+				cols: 8,
+				alignment: 'vertical',
+				verticalDir: 'up',
+				speed: 40,
+				height: 500,
+				tbPadding: 20,
+				lrPadding: 15,
+				hoverStop: true,
+				forceFullwidth: true,
+				bgColor: '#d29389',
+				logoOpacity: 0.6,
+				hoverOpacity: 1
+			});
+			
+		});	
+			
+	});
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="header">
+    </div>
+    
+    <h2>Full width carousel</h2>
+    
+    <p></p>
+    
+    <div class="clear"></div>
+    
+    <!-- CAROUSEL demo_4 -->
+    <div class="at_logo_carousel" id="demo_4">
+    
+    	<div class="at_logo_carousel_calltoaction_container light">
+            <div class="at_logo_carousel_calltoaction">
+                <div class="at_logo_carousel_calltoaction_block">
+                    <h2 class="centered">These companies have trusted us</h2>
+                    <p class="centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales feugiat auctor. Integer lobortis augue sit amet lacus molestie, et blandit justo sodales. Mauris varius dignissim ipsum, et aliquam erat dignissim vitae.</p>
+                    <a href="#" target="_blank" class="at_logo_carousel_button centered">Read more</a>
+                        <div class="at_logo_carousel_dismiss_button_container">
+                            <a href="#" class="at_logo_carousel_dismiss_button">dismiss</a>
+                        </div>	<div class="at_logo_clear"></div>
+                </div>
+            </div>
+        </div>
+        
+        <ul>
+        	<!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo1_w.png" alt="AlchemyThemes" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+            <!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo2_w.png" alt="AlchemyThemes" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+            <!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo3_w.png" alt="AlchemyThemes" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+        </ul>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <h4>HTML &amp; JS</h4>
+    <script src="https://gist.github.com/Fusiondevs/12faca0af43c3a440567.js"></script>
+    <!-- End of CAROUSEL demo_2 -->
+    
+</div>
+
+
+</body>
+</html>

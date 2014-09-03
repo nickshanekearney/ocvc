@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AlchemyTheme's Logo Carousel - Default Demo</title>
+
+<!-- Demo Includes -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href="assets/css/demo.css" type="text/css" rel="stylesheet" media="all" />
+<!-- End of Demo Includes -->
+
+<!-- Required Files -->
+<script src="../source/req/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="../source/req/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="../source/req/jquery.debouncedresize.js" type="text/javascript"></script>
+<!-- End of Required Files -->
+
+<!-- Logo Carousel Files -->
+<link href="../source/at.logocarousel.css" type="text/css" rel="stylesheet" media="all" />
+<script src="../source/jquery.at.logocarousel.js" type="text/javascript"></script>
+<!-- End of Logo carousel Files -->
+
+<script>
+	jQuery(document).ready(function() {
+		
+		// It's important that you wait for all images to be loaded
+		// before running the carousel, because the script needs
+		// too calculate the size of the images.
+		jQuery('body').waitForImages(function() {
+			
+			// Use default configuration
+			jQuery('#demo_1').logoCarousel();
+			
+		});	
+			
+	});
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="header">
+    </div>
+    
+    <h2>Default carousel</h2>
+    <p>By default, Logo Carousel was designed to show several rows or columns of logos at once moving at different speeds to achieve that amazing effect seen on Skillshare.com. To achieve this, there is no need to have hundreds of clients or partners to put on your carousel, as Logo Carousel will automatically repeat and shuffle your available logos, even if you only have three or four of them only.</p>
+    <p>The default options include 4 rows, transparent background and right-to-left horizontal direction. All of these options and more can be changed directly from javascript code or from the html itself. We will see these 2 posibilities in another examples.</p>
+    
+    <div class="clear"></div>
+    
+	<!-- CAROUSEL demo_1 -->
+    <div class="at_logo_carousel" id="demo_1">
+        <ul>
+        	<!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo1.png" alt="AlchemyThemes" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+            <!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo2.png" alt="AlchemyThemes" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+            <!-- CAROUSEL ITEM -->
+            <li>
+                <a href="#"><img src="assets/img/logo3.png" alt="AlchemyThemes" /></a>
+            </li>
+            <!-- End of CAROUSEL ITEM -->
+            
+        </ul>
+    </div>
+    <!-- End of CAROUSEL demo_1 -->
+    
+    <div class="clear"></div>
+    
+    <h4>HTML</h4>
+    <script src="https://gist.github.com/Fusiondevs/5194f148f0ff2a63947e.js"></script>
+    
+    <h4>Javascript</h4>
+    <script src="https://gist.github.com/Fusiondevs/cb81988664fb6ebafd47.js"></script>
+    
+</div>
+
+
+</body>
+</html>

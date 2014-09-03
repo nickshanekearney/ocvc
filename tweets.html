@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweetie Demo</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="moduals/tweets/tweetie.js"></script>
+</head>
+<body>
+    <div class="example1">
+        <div class="tweet"></div> 
+    </div>
+
+    <script class="source" type="text/javascript">
+        $('.example1 .tweet').twittie({
+            dateFormat: '%b. %d, %Y',
+            template: '{{tweet}} <div class="date">{{date}}</div>',
+            count: 4
+        });
+    </script>
+
+   </body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  width:100%;
+  background-color:#FC9;
+  
+  
+}
+#search {
+  position:fixed;
+  left:50%; 
+  height: 40px;
+  text-align: center;
+  width: 240px;
+  z-index: 100; 
+}
+
+.search-wrap {
+	
+  background: white;
+  line-height: 30px;
+  height: 30px;
+  text-align: left;
+  border-radius: 3px;
+  width: 230px;
+  margin: 0;
+  border: 1px solid #ddd;
+}
+
+#photos-wrap {
+	padding-top:70px;
+  width: 94%; 
+  
+	margin-left:3%;
+	margin-right:3%;
+  position: relative;
+  z-index: 1;
+}
+
+.photo .avatar {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  position: absolute;
+  bottom: 11px;
+  right: 8px;
+  background: white;
+}
+
+.photo  {
+  margin-bottom: 5px;
+  float: left;
+  position: relative;
+  width: 220px;
+  height: 230px;
+  border-radius: 5px;
+  background: white;
+  padding: 5px;
+  margin-right: 5px;
+    margin-left: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.photo .heart {
+  height: 16px;
+  position: absolute;
+  left: 13px;
+  bottom: 16px;
+  padding: 0 5px 0 22px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  background: white url('../images/fav.png') no-repeat 2px 0;
+}
+
+.paginate {
+  display: block;
+  clear: both;
+  margin: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 100px;
+}

@@ -1,0 +1,27 @@
+  
+  <script src='http://code.jquery.com/jquery-1.7.2.min.js' type='text/javascript' charset='utf-8'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js'></script>
+  <script src='javascripts/application.js' type='text/javascript' charset='utf-8'></script>
+     
+  <link rel="stylesheet" href="stylesheets/default.css" type="text/css" media="screen" title="no title" charset="utf-8">
+            
+            
+         
+	<div id='photos-wrap'>  </div>
+	
+	<div class='paginate'>
+	  <a class='btn'  style='display:none;' data-max-tag-id='' href='#'>View More...</a>
+	</div>
+	
+	
+	<script type="text/template" id="photo-template">
+	<div class='photo'>
+	<a href='<%= url %>' target='_blank'>
+	  <img class='main' src='<%= photo %>' width='183'   style='display:none;' onload='Instagram.App.showPhoto(this);' />
+	</a>
+	<img class='avatar' width='400' height='400' src='<%= avatar %>' />
+	<span class='heart'><strong><%= count %></strong></span>
+	</div>
+	</script>
+  
+ 
